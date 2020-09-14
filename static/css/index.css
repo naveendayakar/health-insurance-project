@@ -1,0 +1,38 @@
+div.container {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.submit-button {
+    margin-top: 20px;
+}
+
+#insurance-details {
+    display: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  white-space: nowrap;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.valid{
+  border:1px solid blue;
+}
+.invalid{
+  border:1px solid red;
+}
