@@ -15,7 +15,7 @@
 * Templates--> Contains all html files
 * static/css--> css files
 * static/js--> js files
-
+* template.html --> base html which the rest html files extend. Linked with css and js files.
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
