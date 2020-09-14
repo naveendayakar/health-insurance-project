@@ -3,12 +3,18 @@
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
-
+* [Contents](#Contents)
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
+
+<!-- Contents-->
+## Contents
+* Templates--> Contains all html files
+* static/css--> css files
+* static/js--> js files
 
 
 <!-- ABOUT THE PROJECT -->
