@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Events Per User Details</title>
+  </head>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+    
+    <h1> Details of Events per User</h1>
+    <p> Enter User Details: </p>
+    <div class="container">
+      <div class="main">
+      <form id="event-per-user-details" action="#" method="post" name="health_insurance_form" class="form_class">
+        <p>Individual id:</p>
+        <input type="number" id="user_id" name="user_id">
+        <br>
+        <input type="submit" value="submit" class="submit-button">
+      </form>
+      </div>
+    </div>
+    {% endblock %}
+  </body>
+</html>

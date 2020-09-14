@@ -1,0 +1,14 @@
+
+{% extends "template.html" %}
+{% block content %}
+<table border ="1">
+    <tr>
+        <th>Total Covered Amount</th>        
+    </tr>
+    {% for user in resultTotalCoveredAmount%}
+    <tr>
+        <td>{{user[0]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "template.html" %}
+{% block content %}
+<table border ="1">
+    <tr>
+      <th>event_id</th>        
+      <th>user_id</th>
+      <th>date_of_incidence</th>
+      <th>type_of_issue</th>
+      <th>billed_amount</th>
+      <th>covered_amount</th>
+    </tr>
+    {% for user in EventPerUser%}
+    <tr>
+        <td>{{user[0]}}</td>
+        <td>{{user[1]}}</td>
+        <td>{{user[2]}}</td>
+        <td>{{user[3]}}</td>
+        <td>{{user[4]}}</td>
+        <td>{{user[5]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

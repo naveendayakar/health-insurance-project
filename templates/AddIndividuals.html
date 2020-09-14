@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add Individual Details</title>
+  </head>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+    <h1>Details for Individuals</h1>
+    <p> Enter Below:</p>
+      <div class="container">
+        <div class="main">
+        <form id="individual-details" action="#" method="post" name="health_insurance_form" class="form_class">
+          <p>Gender :</p>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label>
+          <br> 
+          <p>Date of Birth:</p>
+          <input type="date" id="date_of_birth" name="date_of_birth" required placeholder="1990-01-01" onclick="checkDateBirth()">
+          <br>
+          <p>Social Security (Enter Only Numbers):</p>
+          <input type="text" pattern="\d*" maxlength="9" id="social_security"  placeholder="123456789" name="social_security" required>
+          <br>
+          <p>Smoking Status :</p>
+          <select id="smoking_status" name="smoking_status">
+            <option> </option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+          <br>
+          <p>Allergies :</p>
+          <input type="text" id="allergies" name="allergies">
+          <br>
+          <p>Medical Conditions :</p>
+          <input type="text" id="medical_conditions" name="medical_conditions">
+          <br>
+          <input type="submit" value="submit" class="submit-button">
+        </form>
+      	</div>
+      </div>
+    {% endblock %}
+  </body>
+</html>
+<!DOCTYPE html>

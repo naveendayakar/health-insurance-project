@@ -1,0 +1,16 @@
+
+{% extends "template.html" %}
+{% block content %}
+<table border ="1">
+    <tr>
+        <th>Claims Per Year</th>        
+        <th>Year</th>
+      </tr>
+    {% for user in resultClaimsPerYear%}
+    <tr>
+        <td>{{user[0]}}</td>
+        <td>{{user[1]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

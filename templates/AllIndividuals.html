@@ -1,0 +1,26 @@
+
+{% extends "template.html" %}
+{% block content %}
+<table border ="1">
+    <tr>
+        <th>id</th>        
+        <th>gender</th>
+        <th>date_of_birth</th>
+        <th>social_security</th>
+        <th>smoking_status</th>
+        <th>allergies</th>
+        <th>medical_conditions</th>
+    </tr>
+    {% for user in resultIndividuals%}
+    <tr>
+        <td>{{user[0]}}</td>
+        <td>{{user[1]}}</td>
+        <td>{{user[2]}}</td>
+        <td>{{user[3]}}</td>
+        <td>{{user[4]}}</td>
+        <td>{{user[5]}}</td>
+        <td>{{user[6]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
