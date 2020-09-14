@@ -47,6 +47,8 @@ This is an example of how to list things you need to use the software and how to
 * Flask 1.1.2 or (Latest Version)
 * pip 20.2.3 or (Latest Version)
 
+(PLEASE USE GOOGLE CHROME FOR BETTER RESULT)
+
 ### Installation
 
 
