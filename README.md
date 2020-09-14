@@ -16,7 +16,7 @@
 
 
 The project aims at creating a simple Store/Retrieve application in the health insurance industry.
-The project aims to mimic the daily transactions happening in the given scenario.
+The project currently works to mimic the daily transactions happening in the given scenario.
 
 The backend database used for the project was created using freemysqlhosting.net.
 
