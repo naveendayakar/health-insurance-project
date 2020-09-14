@@ -30,8 +30,8 @@ The project is built using Flask and supported by MySQL and JavaScript.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The instructions and prerequisites are given with the intention that it should work for a brand new computer.
+All the installation steps need not be followed. Adviceable to install packages in virtual environment.
 
 ### Prerequisites
 
